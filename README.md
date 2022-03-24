@@ -11,13 +11,13 @@ The ResNet-18 architecture provided to us consists of around 11.17M trainable pa
 ## 1) Method 1(Running on google collab): 
 Execute the google Collab file. The trained file has been uploaded to the google drive hence it will directly fetch the file from the account
 
-### Authorize the user select the google account on which you want to run the file 
-### Copy the authentication Key and past it in the collab file.
-### Press Enter after pasting the authentication Key
+- Authorize the user select the google account on which you want to run the file 
+- Copy the authentication Key and past it in the collab file.
+- Press Enter after pasting the authentication Key
 
 ## 2) Method 2 (Running on HPC or your own device): 
 
-### Download the python and PT file and keep it in same directory.
-### run the py file 
+- Download the python and PT file and keep it in same directory.
+- run the py file 
 
 
