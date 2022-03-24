@@ -7,6 +7,8 @@ Recent advances in deep neural networks have achieved numerous state of the art 
 
 The ResNet-18 architecture provided to us consists of around 11.17M trainable parameters. In order to achieve our goal of adapting this model to be stored on devices with limited storage capacity, we had to specifically look into ways of reducing our model size to contain parameters under 5M. This made us take a new approach of using various block size combinations within each residual layer. We then show our findings by training our optimized model on the CIFAR-10 dataset, where we gained around 92.94\% accuracy.
 
+![Resnet Architecture](https://github.com/kewaljani/Resnet_5Mpara/blob/main/requp.png)
+
 # Execution of program
 ## 1) Method 1(Running on google collab): 
 Execute the google Collab file. The trained file has been uploaded to the google drive hence it will directly fetch the file from the account
