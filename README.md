@@ -11,8 +11,10 @@ The ResNet-18 architecture provided to us consists of around 11.17M trainable pa
 
 
 
-Residual Layer : The model consists of N=3 Residual Layers. Layer i has Bi blocks (for ournetwork, Bi = [5,4,3] for i = 1, 2, 3). The first layer has five residual blocks, followed by four in the next layer and 3 in the last layer. Residual layers are preceded by a fixed convolutional block and followed by an average pooling and fully connected layer.
-Residual Block : Our residual block contains two convolutional layers with a skip connection from the block’s input to the block’s output, similar to original architecture. Similarly, we consider implementing the following sequence of operations: conv→bn→relu→conv→bn→(skip connection)→relu (bn is batch normalization).
+## Residual Layer : 
+The model consists of N=3 Residual Layers. Layer i has Bi blocks (for ournetwork, Bi = [5,4,3] for i = 1, 2, 3). The first layer has five residual blocks, followed by four in the next layer and 3 in the last layer. Residual layers are preceded by a fixed convolutional block and followed by an average pooling and fully connected layer.
+## Residual Block : 
+Our residual block contains two convolutional layers with a skip connection from the block’s input to the block’s output, similar to original architecture. Similarly, we consider implementing the following sequence of operations: conv→bn→relu→conv→bn→(skip connection)→relu (bn is batch normalization).
 
 # Execution of program
 ## 1) Method 1(Running on google collab): 
