@@ -15,12 +15,12 @@ Execute the google Collab file. The trained file has been uploaded to the google
 
 - Run the collab file 
 - Authorize the user select the google account on which you want to run the file 
-- Copy the authentication Key and past it in the collab file.
+- Copy the authentication Key and paste it in the collab file.
 - Press Enter after entering the authentication Key
 
 ## 2) Method 2 (Running on HPC or your own device): 
 
 - Download the python and PT file and keep it in same directory.
-- run the py file 
+- run the py file and (add lossfunction and testing part) 
 
 
